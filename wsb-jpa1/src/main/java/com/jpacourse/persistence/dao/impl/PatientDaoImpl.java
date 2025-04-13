@@ -36,7 +36,6 @@ public class PatientDaoImpl extends AbstractDao<PatientEntity, Long> implements 
             entityManager.merge(patient);
         }
     }
-
     @Override
     public List<PatientEntity> findPatientsByLastName(String lastName) {
         TypedQuery<PatientEntity> query = entityManager.createQuery(
