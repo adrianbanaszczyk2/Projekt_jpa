@@ -2,6 +2,7 @@
 INSERT INTO address (id, address_line1, address_line2, city, postal_code) VALUES (1, 'xx', 'yy', 'city', '62-030');
 INSERT INTO address (id, address_line1, address_line2, city, postal_code) VALUES (2, '123 Main St', 'Apt 4', 'Springfield', '12345');
 INSERT INTO address (id, address_line1, address_line2, city, postal_code) VALUES (3, '456 Elm St', '', 'Shelbyville', '67890');
+INSERT INTO address (id, address_line1, address_line2, city, postal_code) VALUES (4, '456 rossvelt St', '', 'washingoton', '67446');
 
 -- Insert doctors
 INSERT INTO doctor (id, first_name, last_name, telephone_number, email, doctor_number, specialization, address_id) VALUES (1, 'John', 'Doe', '555-1234', 'john.doe@example.com', 'D001', 'SURGEON', 2);
